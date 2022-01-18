@@ -29,3 +29,13 @@ function findCommonItem(array1, array2) {
 //     return false;
 // }
 // console.log(hasPairWithSum2([6,4,3,2,1,7], 9));
+
+
+const food = ['apple', 'strawberry', 'pineapple',  'strawberry', 'pineapple', 'lemon', 'orange'];
+
+const objMap = food.reduce((acc, food) => {
+    acc.push(food);
+    return acc;
+}, []);
+
+console.log(objMap);
