@@ -34,16 +34,17 @@ const myHashTable = new HashTable(50);
 myHashTable.set('grapes', 1000);
 myHashTable.set('apples', 53);
 myHashTable.set('oranges', 13);
-console.log(myHashTable);
-console.log(myHashTable.get('grapes'));
 
-console.log(myHashTable.keys());
+// console.log(myHashTable);
+// console.log(myHashTable.get('grapes'));
+
+// console.log(myHashTable.keys());
 
 
 function firstReccursionCharacter(arr) {
     const duplicateChar = arr.filter((el, index) => arr.indexOf(el) !== index);
     return duplicateChar[0];
 };
-console.log(firstReccursionCharacter([2,5,1,2,3,5,1,2,4]));
-console.log(firstReccursionCharacter([2,1,1,2,3,5,1,2,4]));
-console.log(firstReccursionCharacter([2,3,4,5]));
+// console.log(firstReccursionCharacter([2,5,1,2,3,5,1,2,4]));
+// console.log(firstReccursionCharacter([2,1,1,2,3,5,1,2,4]));
+// console.log(firstReccursionCharacter([2,3,4,5]));
