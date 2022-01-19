@@ -61,14 +61,14 @@ function moveZeroes(arr) {
 
     return [...nonZeroesArr, ...zeroesArr];
 }
-console.log(moveZeroes([12,4,6,7,0,1,5,7,0,0,5,13,56,7,8])); // O(n + n) === O(n);
+// console.log(moveZeroes([12,4,6,7,0,1,5,7,0,0,5,13,56,7,8])); // O(n + n) === O(n);
 
 
 function containsDuplicate(arr) {
     const duplicateArr = arr.filter((el, index) => arr.indexOf(el) !== index);
     return duplicateArr.length > 0 ? true : false;
 }
-console.log(containsDuplicate( [1,1,1,3,3,4,3,2,4,2]));
+// console.log(containsDuplicate( [1,1,1,3,3,4,3,2,4,2]));
 
 
 function rotate(arr, k) {
