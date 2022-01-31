@@ -21,11 +21,11 @@
 // console.log(findFactorialRecursive(5));
 
 // 0 + 1 + 1 +2 +3 + 5 + 8 + 13 + 21
-function fibonacciIterativeRecursive(n) {
-    if (n < 2) {
-        return n;
-    };
-    return fibonacciIterativeRecursive(n - 1) + fibonacciIterativeRecursive(n - 2);
-};
+// function fibonacciIterativeRecursive(n) {
+//     if (n < 2) {
+//         return n;
+//     };
+//     return fibonacciIterativeRecursive(n - 1) + fibonacciIterativeRecursive(n - 2);
+// };
 
-fibonacciIterativeRecursive(5);
+// fibonacciIterativeRecursive(5);
